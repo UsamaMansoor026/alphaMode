@@ -8,6 +8,13 @@ import trainer1 from "./trainer/first-trainer.jpg";
 import trainer2 from "./trainer/second-trainer.jpg";
 import trainer3 from "./trainer/third-trainer.jpg";
 
+/* Classes */
+import fitness from "./classes/fitness.jpg";
+import muscle from "./classes/muscle.jpg";
+import bodybuilding from "./classes/bodybuilding.jpg";
+import yoga from "./classes/yoga.jpg";
+import advanced from "./classes/advanced.jpg";
+
 export const heroBgVidSrc = heroBgVid;
 export const wavyPatternSrc = wavyPattern;
 export const ctaSectionBgSrc = ctaSectionBg;
@@ -87,5 +94,43 @@ export const trainersData = [
     name: "Bret D. Bowers",
     role: "Advanced Training Coach",
     desc: "Bret designs elite-level training programs for serious athletes and advanced lifters",
+  },
+];
+
+export const classesData = [
+  {
+    id: 1,
+    title: "Fitness Training",
+    imageUrl: fitness,
+    category: "fitness",
+    desc: "This class is perfect for anyone looking to boost their overall health and stamina. It combines cardio, strength, and functional training in a high-energy environment. Whether you're a beginner or getting back on track, our fitness sessions are designed to build endurance, burn fat, and improve your day-to-day performance.",
+  },
+  {
+    id: 2,
+    title: "Muscle Training",
+    imageUrl: muscle,
+    category: "muscle",
+    desc: "Build raw strength and lean muscle mass with our specialized muscle training program. Focused on progressive overload, proper form, and isolation exercises, this class targets all major muscle groups and is ideal for those aiming to bulk up or tone with structure and intensity.",
+  },
+  {
+    id: 3,
+    title: "Bodybuilding Training",
+    imageUrl: bodybuilding,
+    category: "bodybuilding",
+    desc: "Designed for serious lifters and physique enthusiasts, our bodybuilding class pushes you beyond limits with advanced resistance routines, sculpting sets, and hypertrophy-focused training. From symmetry to definition, this class is all about maximizing your muscle potential and achieving that championship-level physique.",
+  },
+  {
+    id: 4,
+    title: "Yoga Training",
+    imageUrl: yoga,
+    category: "yoga",
+    desc: "Calm your mind and energize your body with yoga sessions focused on balance, flexibility, and mental clarity. Each class guides you through breathing techniques and postures that enhance both physical and emotional well-being — perfect for recovery days or a mindful break from intense training.",
+  },
+  {
+    id: 5,
+    title: "Advanced Training",
+    imageUrl: advanced,
+    category: "advanced",
+    desc: "This class is built for those who want more — more intensity, more challenge, more results. Expect HIIT circuits, functional strength movements, athletic drills, and complex routines. Ideal for seasoned gym-goers and athletes looking to break plateaus and push past physical limits.",
   },
 ];

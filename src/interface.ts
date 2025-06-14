@@ -5,3 +5,11 @@ export interface trainerCardInterface {
   desc: string;
   avatar: string;
 }
+
+export interface classesDataInterface {
+  id: number;
+  title: string;
+  imageUrl: string;
+  desc: string;
+  category: string;
+}
