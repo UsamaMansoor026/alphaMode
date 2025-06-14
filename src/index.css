@@ -17,6 +17,10 @@
   --font-bebas: "Bebas Neue", cursive;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-inter);
   background-color: var(--color-background);
@@ -28,6 +32,7 @@ body {
 #trainers,
 #contact {
   padding-block: 80px;
+  scroll-margin-top: 70px;
 }
 
 h1,

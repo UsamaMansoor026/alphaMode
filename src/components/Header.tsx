@@ -37,8 +37,8 @@ const Header = () => {
         <a href="#classes" className="duration-300 hover:text-cta">
           Classes
         </a>
-        <a href="#schedules" className="duration-300 hover:text-cta">
-          Schedules
+        <a href="#trainers" className="duration-300 hover:text-cta">
+          Trainers
         </a>
         <a href="#contact" className="duration-300 hover:text-cta">
           Contact

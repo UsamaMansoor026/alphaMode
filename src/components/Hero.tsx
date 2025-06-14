@@ -6,7 +6,7 @@ const Hero = () => {
       <video
         muted
         autoPlay
-        // loop
+        loop
         playsInline
         className="w-full h-[inherit] object-cover"
       >
